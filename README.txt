@@ -1,5 +1,4 @@
-author: Chen Yao	
-email: cyao10@u.rochester.edu
+
 
 1.Definition for the terms:
 	
