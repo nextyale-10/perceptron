@@ -191,7 +191,7 @@ def main():
     print("All data vectors are bounded by R= {}".format(upper_R))
     print("it uses {} steps(updates) and {} iterations".format(step,itera))
     if max_accuracy ==1:
-        print("Since it converges, we can calculate out delta^2 > {}".format(upper_R*upper_R/step))
+        print("Since it converges, we can calculate out delta^2 < {}".format(upper_R*upper_R/step))
     
     print('\nFinal accuracy: {}\nMax accuracy: {}'.format(a,max_accuracy))
     print('\nFeature weights (bias last): {}'.format(' '.join(map(str,weights))))
@@ -205,4 +205,4 @@ if __name__ == '__main__':
     step_accuracy_x =[]
     step_accuracy_y=[]
     main()
-#parse_data("linearSmoke.dat")
+
